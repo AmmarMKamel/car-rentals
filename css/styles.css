@@ -1,0 +1,516 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.clear-fix {
+  clear: both;
+}
+
+#sec1 {
+  background-image: url("../Images/header-bg.jpg");
+  height: 750px;
+}
+
+.layer {
+  background-color: rgba(4, 1, 19, 0.8);
+  width: 100%;
+  height: 100%;
+}
+
+#sec1-content {
+  width: 1140px;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+
+#logo {
+  float: left;
+}
+
+#nav {
+  float: right;
+}
+
+#nav a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-right: 30px;
+  font-size: 1rem;
+}
+
+#left-content {
+  margin-top: 160px;
+  width: 55%;
+  float: left;
+}
+
+#left-content h3 {
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+#left-content h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 2.75rem;
+  margin-top: 15px;
+}
+
+#left-content p {
+  color: white;
+  margin-top: 19px;
+}
+
+#left-content a {
+  color: white;
+  background-color: #f9b700;
+  padding: 17px 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 42px;
+}
+
+#form-content {
+  padding: 55px 50px 66px;
+  background-color: rgba(17, 34, 68, 0.6);
+  border: thin solid #666;
+  width: 44%;
+  margin-top: 7px;
+  float: right;
+}
+
+#form-content h2 {
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+
+#form-content form * {
+  display: inline-block;
+  border-radius: 5px;
+  outline: none;
+}
+
+#form-content .full-width {
+  width: 100%;
+}
+
+#form-content select,
+input[type="text"] {
+  padding-left: 16px;
+  padding-top: 12px;
+  padding: 12px 0 12px 16px;
+  color: #999;
+  margin-bottom: 14px;
+}
+
+#form-content .half-width {
+  width: 48%;
+}
+
+#form-content select.half-width {
+  float: left;
+}
+
+#form-content input.half-width {
+  float: right;
+}
+
+#form-content input[type="submit"] {
+  background-color: #f9b700;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px 0;
+}
+
+#sec2 {
+  background-color: white;
+  width: 100%;
+}
+
+#sec2-content {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+#sec2-content h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-top: 30px;
+}
+
+#sec2-content h1 + p {
+  text-align: center;
+  color: #999;
+  font-size: 0.9rem;
+  margin-top: 19px;
+}
+
+.card {
+  background-color: #ededf7;
+  padding: 45px 13px 48px 30px;
+  width: 32%;
+  float: left;
+  margin-bottom: 30px;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+}
+
+.first-row {
+  margin-top: 58px;
+}
+
+.center-card {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#sec3 {
+  background-color: white;
+  width: 100%;
+}
+
+#sec3-content {
+  width: 1140px;
+  margin: 0 auto;
+  margin-top: 110px;
+}
+
+#sec3-content #car-img {
+  float: left;
+  width: 55%;
+}
+
+#sec3-content #car-img img {
+  width: 100%;
+}
+
+#sec3-content #right-content {
+  float: right;
+  width: 40%;
+  margin-top: 62px;
+}
+
+#sec3-content #right-content h1 + p {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-top: 21px;
+}
+
+#sec3-content #right-content p + p {
+  color: #999;
+  font-weight: 100;
+  margin-top: 19px;
+}
+
+#sec3-content #right-content a {
+  display: inline-block;
+  margin-top: 19px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #f9b700;
+  color: white;
+  padding: 16px 40px;
+}
+
+#sec4 {
+  background-color: white;
+  width: 100%;
+}
+
+#sec4-content {
+  width: 1140px;
+  margin: 0 auto;
+  margin-top: 121px;
+}
+
+#sec4-content h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-top: 30px;
+}
+
+#sec4-content h1 + p {
+  text-align: center;
+  color: #999;
+  font-size: 0.9rem;
+  margin-top: 9px;
+}
+
+#sec4-content #car-details {
+  width: 47%;
+  margin-top: 113px;
+  float: left;
+}
+
+#sec4-content #car-img2 {
+  margin-top: 95px;
+  float: right;
+}
+
+#sec4-content #car-details #left-align {
+  padding-top: 20px;
+  float: left;
+}
+
+#sec4-content #car-details #right-align {
+  color: #f9b700;
+  float: right;
+}
+
+#sec4-content #car-details #right-align span {
+  font-size: 2.3rem;
+}
+
+#sec4-content #car-details p {
+  color: #999;
+  text-align: justify;
+  font-size: 0.9rem;
+}
+
+#sec4-content #car-details div + p {
+  margin-top: 27px;
+}
+
+#sec4-content #car-details p + p {
+  margin-top: 18px;
+}
+
+#sec4-content #car-details a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: black;
+  text-transform: uppercase;
+  margin-top: 18px;
+  padding: 17px 41px;
+  color: white;
+}
+
+#sec4-content ul {
+  list-style-type: square;
+  color: #999;
+  margin: 0 auto;
+}
+
+#sec4-content #list-squares {
+  width: 1140px;
+  margin-top: 43px;
+}
+
+#sec4-content ul li {
+  margin-right: 16px;
+  float: left;
+}
+
+#sec4-content ul #first-item {
+  margin-left: 572px;
+  color: #f9b700;
+}
+
+#sec4-content ul li.clear-fix {
+  float: none;
+  visibility: hidden;
+}
+
+#sec5 {
+  background-image: url("../images/callaction-bg.jpg");
+  width: 100%;
+  height: 410px;
+  margin-top: 25px;
+}
+
+#sec5-content {
+  width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 114px;
+}
+
+#sec5-content h1 {
+  color: white;
+}
+
+#sec5-content p {
+  color: white;
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+#sec5-content a {
+  display: inline-block;
+  color: #f9b700;
+  background-color: transparent;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 15px 40px;
+  border: thin solid #f9b700;
+  margin-top: 28px;
+}
+
+#sec6 {
+  background-color: white;
+  width: 100%;
+}
+
+#sec6-content {
+  width: 1140px;
+  margin: 0 auto;
+  margin-top: 121px;
+}
+
+#sec6-content h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-top: 30px;
+}
+
+#sec6-content h1 + p {
+  text-align: center;
+  color: #999;
+  font-size: 0.9rem;
+  margin-top: 9px;
+}
+
+#sec6-content #cards h4 {
+  display: inline-block;
+  background-color: black;
+  text-decoration: none;
+  color: #666;
+  padding: 8px 22px;
+  margin-top: 20px;
+}
+
+#sec6-content #cards {
+  padding-top: 88px;
+  width: 100%;
+}
+
+#sec6-content #cards .card2 {
+  width: 22%;
+  float: left;
+}
+
+#sec6-content #cards .cards2 > img {
+  width: 100%;
+}
+
+#sec6-content #cards > div + div {
+  margin-left: 4%;
+}
+
+#sec6-content #cards .clear-fix {
+  margin-left: 0;
+}
+
+#sec6-content #cards h3 {
+  text-transform: capitalize;
+  margin-top: 13px;
+}
+
+#sec6-content #cards p {
+  color: #999;
+  font-size: 0.9rem;
+}
+
+#sec6-content #cards h3 + p {
+  margin-top: 10px;
+}
+
+#sec6-content #cards p + p {
+  margin-top: 18px;
+}
+
+#sec6-content #cards p span + span {
+  float: right;
+}
+
+#sec7 {
+  background-color: #04091d;
+  width: 100%;
+  margin-top: 49px;
+}
+
+#sec7-content {
+  width: 1140px;
+  margin: 0 auto;
+  padding-top: 92px;
+}
+
+#sec7-content .card3 {
+  float: left;
+  width: 15%;
+}
+
+#sec7-content h3 {
+  color: white;
+  margin-bottom: 23px;
+}
+
+#sec7-content .card3 a {
+  color: #666;
+  display: block;
+  font-weight: 100;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+#sec7-content .biggest-card {
+  width: 30%;
+  position: relative;
+}
+
+#sec7-content div + div {
+  margin-left: 2.5%;
+}
+
+#sec7-content .clear-fix {
+  margin: 0;
+}
+
+#sec7-content .card3 img {
+  margin-right: 16px;
+}
+
+#sec7-content .socials a {
+  margin-bottom: 17px;
+}
+
+#sec7-content .biggest-card p {
+  color: #666;
+  font-weight: 100;
+  margin-bottom: 18px;
+}
+
+#sec7-content .biggest-card input[type="submit"] {
+  color: white;
+  background-color: #f9b700;
+  padding: 13px;
+  position: absolute;
+  right: 0;
+}
+
+#sec7-content .biggest-card input[type="text"] {
+  outline: none;
+  width: 100%;
+}
+
+#sec7-content div + p {
+  text-align: center;
+  margin-top: 72px;
+  color: #666;
+  font-weight: 100;
+  padding-bottom: 63px;
+}
